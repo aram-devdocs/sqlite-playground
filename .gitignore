@@ -1,0 +1,60 @@
+# Python virtual environment
+venv/
+env/
+.env
+*.env
+
+# Jupyter Notebooks
+.ipynb_checkpoints/
+*.ipynb_checkpoints
+
+# Python compiled files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# SQLite databases (unless explicitly tracked)
+*.db
+*.sqlite
+*.sqlite3
+
+# Data files (large or sensitive)
+data/*.csv
+data/*.json
+data/*.xlsx
+
+# IDE and Editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Operating System files
+.DS_Store
+Thumbs.db
+
+# Logs and databases
+*.log
+
+# Packaging and distribution
+*.egg-info/
+dist/
+build/
+*.egg
+
+# Testing and coverage
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Jupyter Lab extensions
+.jupyterlab-settings/
+
+# Temporary files
+.tmp
+*.tmp
+
+# Sensitive or local configuration
+config.ini
+local_settings.py 
